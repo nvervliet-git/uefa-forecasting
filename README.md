@@ -10,3 +10,8 @@ Run following docker command:
 `docker compose -f docker-compose-forecasting.yml up`
 
 After images are pulled & created navigate, in your browser, to: `http://localhost:8080/groups`
+
+## H2 console
+Navigate to: `http://localhost:9200/h2-console/`
+JDBC URL: `jdbc:h2:mem:forecasting`
+User name: `sa`
