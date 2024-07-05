@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs';
 
-export const API_URL = 'http://localhost:8080'
+export const API_URL = 'http://localhost:9200'
 
 
 @Injectable({

@@ -4,7 +4,7 @@ import { Observable, share } from 'rxjs';
 import { GroupMatch } from '../model/group-match';
 
 
-export const API_MATCH_URL = 'http://localhost:8080/match'
+export const API_MATCH_URL = 'http://localhost:9200/match'
 
 @Injectable({
   providedIn: 'root'
