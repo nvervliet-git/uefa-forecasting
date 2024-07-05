@@ -1,0 +1,129 @@
+
+<div class="container-fluid app-background" >
+    <div class="content">
+        <div class="flex-child">
+            <div class="divContainer" style="padding: 20px;">
+                <!-- <ng-container *ngIf="obsValueGroupForm$ | async as formValue">
+                    Nested form value: {{formValue}}
+                </ng-container> -->
+                <!-- <ng-container *ngIf="obsGroupMatchesValue$ | async as groupMatchesValue">
+                    <div class="alert alert-success">
+                        My form group matches value : <b>{{groupMatchesValue}}</b>.
+                    </div>
+                </ng-container>
+                <ng-container *ngIf="obsStatusGroupForm$ | async as formStatus">
+                    Nested form status: {{ formStatus }}
+                </ng-container> -->
+                   <!--    <ng-container *ngIf="obsValueGroupForm$ | async as formValue">
+                        Nested form value: {{formValue}}
+                    </ng-container>
+                    <ng-container *ngIf="obsGroupMatchesStatus$ | async as groupMatchesStatus">
+                        <div class="alert alert-success">
+                            My form group matches status : <b>{{groupMatchesStatus}}</b>.
+                        </div>
+                    </ng-container>
+                    <ng-container *ngIf="obsGroupMatchesValue$ | async as groupMatchesValue">
+                        <div class="alert alert-success">
+                            My form group matches value : <b>{{groupMatchesValue}}</b>.
+                        </div>
+                    </ng-container>
+                    <ng-container *ngIf="obsMatchStatus$ | async as matchStatus">
+                        <div class="alert alert-success">
+                            My form match status : <b>{{matchStatus}}</b>.
+                        </div>
+                    </ng-container>
+                    <ng-container *ngIf="obsMatchValue$ | async as matchValue">
+                        <div class="alert alert-success">
+                            My form values:
+                            Home team:
+                            <ul>
+                                <li>Name: {{matchValue.homeTeam.name}} </li>
+                                <li>Goals: {{matchValue.homeTeam.goals}} </li>
+                            </ul>
+                            Away team:
+                            <ul>
+                                <li>Name: {{matchValue.awayTeam.name}} </li>
+                                <li>Goals: {{matchValue.awayTeam.goals}} </li>
+                            </ul>
+                        </div>
+                    </ng-container>
+                </div> -->
+                <div>
+                    <form ngNativeValidate [formGroup]="groupMatchesForm">
+                        <div formArrayName="groupMatches">
+                            <div formGroupName="{{i}}" *ngFor="let groupMatch of groupMatchesArray; index as i; trackBy:identify" style="margin-top: 10px; border-radius: 30px; background-color: white;" class="flex-column-loop">
+                                <h2 style="padding: 15px;">{{groupMatch.get("groupName")?.value}}</h2> 
+                                <div id="tableDiv">
+                                    <div>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Day</th>
+                                                    <th>Time</th>
+                                                    <th>Home Team</th>
+                                                    <th>Goals HT</th>
+                                                    <th>Goals AT</th>
+                                                    <th>Away Team</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <ng-container formArrayName="matchDtoList">
+                                                    <ng-container *ngFor="let match of matchDtoListArray(groupMatch); let j = index;" formGroupName="{{j}}">
+                                                        <tr>
+                                                            <td> {{match.get("kickOffTime")?.value | date: 'dd/MM/yyyy'}}</td>
+                                                            <td> {{match.get("kickOffTime")?.value | date: 'HH:mm'}}</td>
+                                                            <td style="width: 150px;"> <img src="{{match.get('homeTeam.logo')?.value}}" width="24px" /> {{match.get("homeTeam.name")?.value}}</td>
+                                                            <ng-container formGroupName="homeTeam">
+                                                                <td> 
+                                                                    <!-- <input type="number" min="0" formControlName="goals" (change)="my_handler($event, j, match )" required min="0" /> -->
+                                                                    <input type="number" min="0" formControlName="goals"  required min="0" max="99" />
+                                                                    <!-- <div *ngIf="error(match)">
+                                                                        wtf
+                                                                    </div>  -->
+                                                                </td>
+                                                            </ng-container>
+                                                            <ng-container formGroupName="awayTeam">
+                                                                <td>
+                                                                    <input type="number" min="0" formControlName="goals" required min="0" max="99"/> 
+                                                                </td>
+                                                            </ng-container>
+                                                            <td style="width: 150px;"> <img src="{{match.get('awayTeam.logo')?.value}}" width="24px" /> {{match.get("awayTeam.name")?.value}}</td>
+                                                        </tr>
+                                                    </ng-container>
+                                                </ng-container>
+                                        </table>
+                                    </div>
+                                    <div style="display: flex;">
+                                        <button style=" align-self: last baseline;  margin: 1rem; margin-bottom: -30px;" (click)="registerResult(groupMatch, i)" class="btn btn-success" req>Register Results</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="flex-child">
+            <div class="divSliceArrow" style="padding-top: 20px;">
+                <div *ngFor="let groupMatch of groupMatchesArray; index as i;" style="display: flex; align-items: center;" class="flex-column-loop">
+                    <div style="padding: 25%; justify-content: center;">
+                        <img src="/assets/img/greyRightArrow.png" width="50px:" alt="image"  >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-child">
+            <div class="divContainer" style="padding: 20px; ">
+                <div *ngFor="let groupMatch of groupMatchesArray; index as i; trackBy:identify" class="flex-column-loop">
+                    <!-- <app-forecasting-result    [obsGroupMatchesValue$]="obsGroupMatchesValue$" /> -->
+                    <!-- <app-forecasting-result [groupMatches]="pushMatchResults(i)"></app-forecasting-result> -->
+                    <!-- <app-forecasting-result [groupResults]="pushResult(groupMatch, i)"></app-forecasting-result> -->
+                    <app-forecasting-result [groupResults]="groupMatchResultHolder[i]" (groupResultsOut)="logOut($event)"></app-forecasting-result>
+                </div>
+            </div>
+        </div>
+        <!-- <div style="position: fixed; top: 50%; left: 13%;">
+            <button style="margin: 1rem"  class="btn btn-success" req>Register  ALL Results</button>
+        </div> -->
+    </div>
+</div>

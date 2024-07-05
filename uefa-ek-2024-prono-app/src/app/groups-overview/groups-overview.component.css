@@ -1,0 +1,4 @@
+.divContainer  { display: inline-block; vertical-align: top; }
+.divSlice { width: 50%; }
+
+.app-background { background-color: rgba(247, 247, 247, 0.943); }

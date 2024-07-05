@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.flex-child:nth-child(3){ height: 418px; }
+.flex-column-loop {
+    height: 438px; max-height: 438px;
+}
+
+.divSliceArrow { width: 5%; }
+
+.app-background { background-color: rgba(247, 247, 247, 0.943); }
+
+.divider {  
+    width: 10px;
+    height: 10px;
+    background: black;
+    margin-inline: 0.5rem;
+  }
+
+.content h1 {
+    margin-top: 1.75rem;
+}
+
+.content p {
+    margin-top: 1.5rem;
+}
+
+.mat-footer-row,
+.mat-header-row,
+.mat-row {
+    display: inline-flex;
+    min-width: 100%;
+}
+
+#tableDiv {
+    display: flex;
+}

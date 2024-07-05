@@ -1,0 +1,81 @@
+
+<div class="container-fluid app-background" >
+    <div>
+        <div class="divContainer divSlice" style="padding: 50px;">
+            <div *ngFor="let group of groups | slice:0:half" style="margin-top: 10px; border-radius: 30px; background-color: white;">
+            
+                <h2 style="padding: 15px;">{{group.groupName}}</h2>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th> </th>
+                            <th>Played</th>
+                            <th>Won</th>
+                            <th>Drawn</th>
+                            <th>Lost</th>
+                            <th>For</th>
+                            <th>Against</th>
+                            <th>Goal Difference</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let team of group.team; index as i">
+                            <td style="width: fit-content;">{{i+1}} <img src = {{team.logo}} width="32px" /> {{team.name}}</td>
+                            <td>{{team.result.played}}</td>
+                            <td>{{team.result.won}}</td>
+                            <td>{{team.result.drawn}}</td>
+                            <td>{{team.result.lost}}</td>
+                            <td>{{team.result.goalsFor}}</td>
+                            <td>{{team.result.goalsAgainst}}</td>
+                            <td>{{team.result.goalDifference}}</td>
+                            <td>{{team.result.points}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br /> 
+            </div>
+            
+        </div>
+        <div class="divContainer divSlice" style="padding: 50px;">
+            <div *ngFor="let group of groups | slice:half" style="margin-top: 10px; border-radius: 30px; background-color: white;">
+            
+                <h2 style="padding: 15px;">{{group.groupName}}</h2>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th> </th>
+                            <th>Played</th>
+                            <th>Won</th>
+                            <th>Drawn</th>
+                            <th>Lost</th>
+                            <th>For</th>
+                            <th>Against</th>
+                            <th>Goal Difference</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let team of group.team; index as i">
+                            <td style="width: fit-content;">{{i+1}} <img src = {{team.logo}} width="32px" /> {{team.name}}</td>
+                            <td>{{team.result.played}}</td>
+                            <td>{{team.result.won}}</td>
+                            <td>{{team.result.drawn}}</td>
+                            <td>{{team.result.lost}}</td>
+                            <td>{{team.result.goalsFor}}</td>
+                            <td>{{team.result.goalsAgainst}}</td>
+                            <td>{{team.result.goalDifference}}</td>
+                            <td>{{team.result.points}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <br /> 
+            </div>
+            
+        </div>
+    </div>
+</div>
