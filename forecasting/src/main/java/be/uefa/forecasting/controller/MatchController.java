@@ -31,10 +31,7 @@ public class MatchController {
     @PostMapping("/group/{year}/register")
     public ResponseEntity<Void> registerMatches(Principal principal,
                                                 @PathVariable final Integer year,
-//                                          @PathVariable final String username, //TODO get from authenticationProvider / logged in user
-                                                @RequestBody
-//                                                    @JsonDeserialize(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
-                                                    final List<GroupMatchResultHolder> groupMatchResultHolder) {
+                                                @RequestBody final List<GroupMatchResultHolder> groupMatchResultHolder) {
         logger.trace("Submitting group matches for tournament year: [{}] & user: [{}].", year, principal.getName());
         matchService.registerResults(principal.getName(), year, groupMatchResultHolder);
         return ResponseEntity.ok().build();
