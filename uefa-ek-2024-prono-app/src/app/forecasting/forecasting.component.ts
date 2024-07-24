@@ -10,6 +10,7 @@ import { Team } from '../model/team';
 import { Result } from '../model/results';
 import { Group } from '../model/group';
 import { MatchHolder, ResultGroupCalculator, TeamMatchResultHolder } from './group/result-group-calculator';
+import { HttpErrorResponse } from '@angular/common/http';
 
 
 @Component({
@@ -21,15 +22,9 @@ import { MatchHolder, ResultGroupCalculator, TeamMatchResultHolder } from './gro
 })
 export class ForecastingComponent implements OnInit {
 
-
-  private initResult: Result = new Result(0 , 0, 0, 0, 0, false, false, 0, 0, 0, true, 0, 0);
-  private initTeam: Team = new Team(0, '', '', this.initResult)
-  private groupToPush: Group = new Group(0, '', 0, true, '', [this.initTeam]); 
-
   groupMatchResultHolder:IGroupMatchResultHolder[] = [];
 
   private seasonYear: number = 2024;
-  private igroupMatch: Array<Array<IGroupMatch>>;
 
   groupMatchesForm!: FormGroup;
 
@@ -101,7 +96,6 @@ export class ForecastingComponent implements OnInit {
     this.obsGroupMatchResp$.subscribe({
         next: (response: GroupMatch[]) => {
           this.createGroupMatchesForm(response);
-          // this.igroupMatch = new Array<Array<IGroupMatch>>(response.length)
           // Individual match
           this.obsMatchStatus$ = this.createStatusChangeObservable();
           this.obsMatchValue$ = this.createValueChangeObservable();
@@ -210,20 +204,6 @@ export class ForecastingComponent implements OnInit {
       });
   }
 
-
-  // getValueFromFormControl(fg: FormControl) {
-  //   fg.value
-  // }
-
-  // fromControlValue(fg: any, formControlName: string, index: number): string {
-  //   return fg.get(formControlName)?.value;
-  // }
-
-  
-  // fromControlValue2(fg: FormGroup): string {
-  //   return fg.get('yeet')?.value;
-  // }
-
   createStatusChangeObservable(): Observable<any> {
     return merge(...this.groupMatchesArray
       .map((control, index)  => (<FormGroup>control.get('matchDtoList')).controls)
@@ -260,44 +240,22 @@ export class ForecastingComponent implements OnInit {
     );
   }
 
-  pushMatchResults(index: number): IGroupMatch[] {
-    console.log(`Pushing result for index: ${index}`);
-    // return this.igroupMatch.at(index);
-    //TODO
-    const lol: IGroupMatch = {
-      homeTeam: {
-        name: '',
-        logo: '',
-        goals: 0
-      },
-      awayTeam: {
-        name: '',
-        logo: '',
-        goals: 0
-      }
-    };
 
-    return [lol]
-  }
+  registerResult(groupMatch: FormGroup, index: number): void {
+    console.log(  groupMatch.get("groupName")?.value, index)
 
-  groupMatchCopy(groupMatch: FormGroup): any {
-    return {...groupMatch}
-  }
-
-  registerResult(group: FormGroup, index: number): IGroupMatchResultHolder {
-    return this.calculateGroupResults(group.value, index);
+    this.matchService.submitForecastingResult(this.seasonYear, this.groupMatchResultHolder)
+      .subscribe({
+        next: (res: any) => {
+          console.log(`success: ${res}`);
+        },
+        error: (err: HttpErrorResponse) => {
+          console.log(`error: ${err?.error?.message}`);
+        }
+    });
+    
     //TODO register / submit
   }
-
-  // pushResult(group: FormGroup, index: number): Group {
-  //   return this.calculateGroupResults(group, index);
-  // }
-
-  
-  // onValueChangeCalcResult(group: FormGroup, index: number): void {
-  //   this.calculateGroupResults(group, index);
-  // }
-
 
   private calculateGroupResults(group: any, index: number): IGroupMatchResultHolder {
     const groupName: string = group.groupName;
@@ -333,20 +291,15 @@ export class ForecastingComponent implements OnInit {
       groupOrder: index,
       teamMatchResultHolder: teamsWithResult
     } ;
-    // this.groupToPush.team.forEach(team => {
-    //   team.result.played++;
-    //   team.result.points++;
-    // });
-    // return this.groupToPush;
   } 
 
   my_handler(ev: any, index: number, obj:FormGroup): void {
     console.log(ev, index);
-    // obj.valueChanges.subscribe();
  }
 
- logOut(event: TeamMatchResultHolder[]) {
-  console.log(event)
+ logOut(groupMatch: IGroupMatchResultHolder, event: TeamMatchResultHolder[]) {
+    console.log(groupMatch.groupName, event)
+    groupMatch.teamMatchResultHolder = event;
  }
 
  private static toMatchHolder(goalsFor: number, opponent: ITeam): MatchHolder {

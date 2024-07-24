@@ -118,7 +118,7 @@
                     <!-- <app-forecasting-result    [obsGroupMatchesValue$]="obsGroupMatchesValue$" /> -->
                     <!-- <app-forecasting-result [groupMatches]="pushMatchResults(i)"></app-forecasting-result> -->
                     <!-- <app-forecasting-result [groupResults]="pushResult(groupMatch, i)"></app-forecasting-result> -->
-                    <app-forecasting-result [groupResults]="groupMatchResultHolder[i]" (groupResultsOut)="logOut($event)"></app-forecasting-result>
+                    <app-forecasting-result [groupResults]="groupMatchResultHolder[i]" (groupResultsOut)="logOut(groupMatchResultHolder[i], $event)"></app-forecasting-result>
                 </div>
             </div>
         </div>
