@@ -63,6 +63,7 @@ public class GroupMatchesStartupRunner implements CommandLineRunner {
             List<LinkedTreeMap<String, Object>> jsonObject = readJson(resource);
             persistJsonObject(jsonObject);
         }
+        LOG.info("Group matches loaded OK!");
     }
 
     private void persistJsonObject(List<LinkedTreeMap<String, Object>> jsonObject) {

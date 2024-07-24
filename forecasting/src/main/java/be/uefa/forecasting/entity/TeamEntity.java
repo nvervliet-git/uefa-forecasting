@@ -21,6 +21,7 @@ public class TeamEntity {
     @JoinColumn(name = "group_id")
     private GroupMatchesEntity group;
 
+
 //    @OneToMany(
 //            mappedBy = "match",
 //            cascade = CascadeType.ALL,
@@ -68,6 +69,7 @@ public class TeamEntity {
     public void setGroup(GroupMatchesEntity group) {
         this.group = group;
     }
+
 
     @Override
     public boolean equals(Object o) {

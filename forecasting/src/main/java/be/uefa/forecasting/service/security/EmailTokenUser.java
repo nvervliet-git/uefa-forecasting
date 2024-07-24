@@ -30,7 +30,7 @@ class EmailTokenUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return this.getToken();
+        return this.getEmail();
     }
 
     @Override

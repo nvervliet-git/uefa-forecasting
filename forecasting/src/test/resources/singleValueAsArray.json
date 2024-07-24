@@ -1,0 +1,1156 @@
+{
+  "groupMatchResultHolder": [
+    {
+      "id": 2006644,
+      "groupName": "Group A",
+      "active": true,
+      "groupOrder": 0,
+      "teamMatchResultHolder": [
+        {
+          "name": "Germany",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/GER.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Scotland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SCO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Hungary",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/HUN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Switzerland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SUI.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Scotland",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/SCO.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Germany",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GER.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Switzerland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SUI.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Hungary",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/HUN.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Hungary",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/HUN.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Switzerland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SUI.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Germany",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GER.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Scotland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SCO.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Switzerland",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/SUI.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Hungary",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/HUN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Scotland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SCO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Germany",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GER.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    },
+    {
+      "id": 2006645,
+      "groupName": "Group B",
+      "active": true,
+      "groupOrder": 1,
+      "teamMatchResultHolder": [
+        {
+          "name": "Spain",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Croatia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CRO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Italy",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ITA.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Albania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ALB.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Croatia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/CRO.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Spain",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Albania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ALB.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Italy",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ITA.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Italy",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/ITA.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Albania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ALB.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Spain",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Croatia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CRO.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Albania",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/ALB.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Italy",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ITA.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Croatia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CRO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Spain",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ESP.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    },
+    {
+      "id": 2006646,
+      "groupName": "Group C",
+      "active": true,
+      "groupOrder": 2,
+      "teamMatchResultHolder": [
+        {
+          "name": "Slovenia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/SVN.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Denmark",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/DEN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Serbia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SRB.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "England",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ENG.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Denmark",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/DEN.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovenia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "England",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ENG.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Serbia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SRB.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Serbia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/SRB.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "England",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ENG.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovenia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Denmark",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/DEN.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "England",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/ENG.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Serbia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SRB.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Denmark",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/DEN.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovenia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVN.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    },
+    {
+      "id": 2006647,
+      "groupName": "Group D",
+      "active": true,
+      "groupOrder": 3,
+      "teamMatchResultHolder": [
+        {
+          "name": "Poland",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/POL.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Netherlands",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/NED.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Austria",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/AUT.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "France",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/FRA.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Netherlands",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/NED.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Poland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POL.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "France",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/FRA.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Austria",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/AUT.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Austria",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/AUT.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "France",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/FRA.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Poland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POL.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Netherlands",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/NED.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "France",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/FRA.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Austria",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/AUT.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Netherlands",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/NED.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Poland",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POL.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    },
+    {
+      "id": 2006648,
+      "groupName": "Group E",
+      "active": true,
+      "groupOrder": 4,
+      "teamMatchResultHolder": [
+        {
+          "name": "Romania",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/ROU.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Ukraine",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/UKR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Belgium",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/BEL.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovakia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVK.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Ukraine",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/UKR.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Romania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ROU.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovakia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVK.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Belgium",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/BEL.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Belgium",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/BEL.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Slovakia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/SVK.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Romania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ROU.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Ukraine",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/UKR.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Slovakia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/SVK.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Belgium",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/BEL.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Ukraine",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/UKR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Romania",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/ROU.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    },
+    {
+      "id": 2006649,
+      "groupName": "Group F",
+      "active": true,
+      "groupOrder": 5,
+      "teamMatchResultHolder": [
+        {
+          "name": "Türki̇ye",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/TUR.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Georgia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GEO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Portugal",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Czechia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Georgia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/GEO.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Türki̇ye",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/TUR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Czechia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Portugal",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POR.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Portugal",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/POR.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Czechia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Türki̇ye",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/TUR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Georgia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GEO.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        },
+        {
+          "name": "Czechia",
+          "logo": "https://img.uefa.com/imgml/flags/240x240/CZE.png",
+          "matches": [
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Portugal",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/POR.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Georgia",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/GEO.png",
+                "goals": 0
+              }
+            },
+            {
+              "goalsFor": 0,
+              "opponent": {
+                "name": "Türki̇ye",
+                "logo": "https://img.uefa.com/imgml/flags/240x240/TUR.png",
+                "goals": 0
+              }
+            }
+          ],
+          "result": {
+            "teamId": 0,
+            "drawn": 3,
+            "goalDifference": 0,
+            "goalsAgainst": 0,
+            "goalsFor": 0,
+            "isLive": false,
+            "isOverridden": false,
+            "lost": 0,
+            "played": 3,
+            "points": 3,
+            "qualified": true,
+            "rank": 0,
+            "won": 0
+          },
+          "determined": false
+        }
+      ]
+    }
+  ]
+}

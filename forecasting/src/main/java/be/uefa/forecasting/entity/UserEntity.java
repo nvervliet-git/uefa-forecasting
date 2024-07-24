@@ -2,6 +2,9 @@ package be.uefa.forecasting.entity;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name="USER")
 public class UserEntity {
@@ -16,6 +19,15 @@ public class UserEntity {
 
     @OneToOne(mappedBy = "userEntity")  // Can define 'cascade = CascadeType.ALL' here as well instead of in Product entity
     private ConfirmationTokenEntity confirmationTokenEntity;
+
+    @OneToMany(
+            mappedBy = "user",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true,
+            fetch = FetchType.EAGER
+    )
+    private List<MatchResultEntity> matchResults = new ArrayList<>();
+
 
     protected UserEntity() {
         // JPA empty constructor
@@ -55,5 +67,17 @@ public class UserEntity {
 
     public void setConfirmationTokenEntity(ConfirmationTokenEntity confirmationTokenEntity) {
         this.confirmationTokenEntity = confirmationTokenEntity;
+    }
+
+    public List<MatchResultEntity> getMatchResults() {
+        return matchResults;
+    }
+
+    public void setMatchResults(List<MatchResultEntity> matchResults) {
+        this.matchResults = matchResults;
+    }
+
+    public void addMatchResult(MatchResultEntity matchResultEntity) {
+        this.matchResults.add(matchResultEntity);
     }
 }
